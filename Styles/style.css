@@ -1,0 +1,87 @@
+/* shared style */
+/* Merriweather font
+font-family: "Merriweather", serif;
+  font-family: "Open Sans", sans-serif;
+*/
+/* Inter font
+font-family: 'Inter', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'Open Sans', sans-serif;
+ */
+body {
+  font-family: "Merriweather", serif;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* header section */
+
+.banner {
+  width: 1320px;
+  height: 600px;
+  margin: 50px auto;
+  background-repeat: no-repeat;
+  border-radius: 16px;
+  background-image: url("/resources/Banner\ Image.png");
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),url("/resources/Banner\ Image.png");
+  ba
+}
+.banner-title {
+  padding: 120px;
+  margin: auto;
+  width: 632px;
+  height: 246px;
+  justify-items: center;
+  align-items: center;
+}
+.wishing-text {
+  color: #fff;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 32px;
+  font-weight: 400;
+}
+.title {
+  width: 632px;
+  color: #fff;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+}
+
+/* new-year-60%-offer-section */
+
+.new-year-offer {
+  margin: 120px auto;
+  justify-items: center;
+}
+
+.first-offer-title {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 88px;
+  font-weight: 700;
+}
+.offer-paragraph {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin: 48px;
+}
+.offer-title {
+  color: #070211;
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  margin: 8px;
+}
+.new-year-image {
+    display: flex;
+  width: 800px;
+  height: 500px;
+  margin: 48px auto;
+}
