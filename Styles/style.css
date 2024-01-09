@@ -21,7 +21,7 @@ body {
   margin: 50px auto;
   background-repeat: no-repeat;
   border-radius: 16px;
-  background-image: url('/resources/Banner-Image.png');
+  background-image: url('../resources/Banner_Image.png');
   /* background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%); */
     /* url("/resources/Banner-Image.png"); */
 }
@@ -96,7 +96,7 @@ body {
   margin: 120px auto;
   background-repeat: no-repeat;
   border-radius: 16px;
-  background-image: url('/resources/Vectorrr.png');
+  background-image: url('../resources/Vectorrr.png');
   /* background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
     url("/resources/Vectorrr.png"); */
 }
