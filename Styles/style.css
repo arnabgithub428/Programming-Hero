@@ -22,8 +22,8 @@ body {
   background-repeat: no-repeat;
   border-radius: 16px;
   background-image: url("/resources/Banner\ Image.png");
-  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
-    url("/resources/Banner\ Image.png");
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
+    /* url("/resources/Banner\ Image.png"); */
 }
 .banner-text {
   padding: 120px;
@@ -363,7 +363,7 @@ body {
 }
 
 .shoes-img {
-    padding: 5px;
+  padding: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -371,7 +371,7 @@ body {
 }
 .imgs {
   gap: 24px;
-  margin: 25px auto;  
+  margin: 25px auto;
   width: 324px;
   height: 350px;
   border-radius: 16px;
@@ -382,4 +382,120 @@ body {
 .imgs:hover {
   filter: grayscale(1);
   transform: scale(1.03);
+}
+
+/* Subscribe Newsletter */
+
+.Subscribe-Newsletter {
+  width: 1320px;
+  height: 650px;
+  /* padding: 120px; */
+  border-radius: 20px 20px 16px 16px;
+  margin: 120px auto;
+  background-color: rgb(244, 252, 209);
+  justify-items: center;
+  align-items: center;
+}
+.icon-text {
+  text-align: center;
+  padding: 120px;
+  justify-content: center;
+  align-items: center;
+}
+.Subscribe-title {
+  color: #070211;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+.Subscribe-paragraph {
+  width: 796px;
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  margin: auto;
+}
+.box {
+  text-align: center;
+  margin-top: 50px;
+}
+input {
+  position: relative;
+  display: inline-flex;
+  box-sizing: border-box;
+  justify-items: center;
+  align-items: center;
+  right: -110px;
+}
+input[type="Email"] {
+  font-size: 18px;
+  background: #fff8f3;
+  width: 648px;
+  height: 72px;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  padding: 0 25px;
+}
+input[type="Submit"] {
+  padding: 0 50px;
+  position: relative;
+  border-radius: 0px 50px 50px 0px;
+  width: 210px;
+  height: 72px;
+  border: none;
+  background: #f00;
+  color: #fff;
+  left: -108px;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* footer section */
+.footer {
+  width: auto;
+  height: 609px;
+  background: #070211;
+}
+.address {
+  display: flex;
+  justify-content: space-around;
+  vertical-align: middle;
+}
+.address p {
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+  line-height: 40px;
+}
+.adrs-paragraph{
+  font-weight: 100px;
+  margin-top: 80px;
+  line-height: 40px;
+}
+.copy-right {
+  margin-top: 150px;
+  display: flex;
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  justify-content: space-around;
+}
+.social-midea {
+  margin-top: 200px auto;
+  justify-content: center;
+  align-items: center;
+  padding: 0 500px;
+  margin: 30px;
+}
+
+.contact {
+  margin-top: 25px;
 }
